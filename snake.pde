@@ -22,7 +22,7 @@ int speedStep = negativeSpeed;
  * Funktion zum zurücksetzen des Spiels
  */
 void reset() {
-		background(bgColor);
+		bgColor = #F4F4F4;
 		snakeLength = 5;
 		direction = 2;
 		negativeSpeed = 10;
